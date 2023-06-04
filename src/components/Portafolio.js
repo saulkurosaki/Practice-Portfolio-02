@@ -1,9 +1,7 @@
-const Portafolio = () => {
-    return(
-        <div>
+import React from 'react'
 
-        </div>
-    );
-};
-
-export default Portafolio;
+export const Portafolio = () => {
+  return (
+    <div>Portafolio</div>
+  )
+}

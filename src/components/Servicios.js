@@ -1,9 +1,7 @@
-const Servicios = () => {
-    return(
-        <div>
+import React from 'react'
 
-        </div>
-    );
-};
-
-export default Servicios;
+export const Servicios = () => {
+  return (
+    <div>Servicios</div>
+  )
+}

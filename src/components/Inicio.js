@@ -1,9 +1,7 @@
-const Inicio = () => {
-    return(
-        <div>
+import React from 'react'
 
-        </div>
-    );
-};
-
-export default Inicio;
+export const Inicio = () => {
+  return (
+    <div>Inicio</div>
+  )
+}
