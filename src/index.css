@@ -23,11 +23,32 @@ code {
   align-items: center;
   list-style: none;
   height: 132px;
+  border-bottom: 3px solid black;
+  margin-bottom: 35px;
+}
+
+.header .logo {
+  display: flex;
 }
 
 .header .logo,
 .header nav {
   flex: 1 1 auto;
+}
+
+.header .logo span {
+  display: block;
+  font-size: 90px;
+  font-weight: bolder;
+  margin-top: -8px;
+}
+
+.header .logo h3 {
+  display: block;
+  flex-basis: 40px;
+  margin-left: 10px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .header nav ul {
@@ -52,6 +73,23 @@ code {
   transition: all 300ms;
 }
 
+.header .active,
 .header a:hover {
   color: #fa4529;
+}
+
+.content {
+  min-height: 400px;
+}
+
+.footer {
+  min-height: 150px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 35px;
+  padding-top: 45px;
+  border-top: 3px solid black;
+  background: #f5f5f5;
+  color: #444;
 }
